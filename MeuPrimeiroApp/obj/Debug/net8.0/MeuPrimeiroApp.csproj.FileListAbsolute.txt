@@ -1,0 +1,15 @@
+D:\VSCode\estudos\DotNet\Recomecando\Recomecando\MeuPrimeiroApp\bin\Debug\net8.0\MeuPrimeiroApp.exe
+D:\VSCode\estudos\DotNet\Recomecando\Recomecando\MeuPrimeiroApp\bin\Debug\net8.0\MeuPrimeiroApp.deps.json
+D:\VSCode\estudos\DotNet\Recomecando\Recomecando\MeuPrimeiroApp\bin\Debug\net8.0\MeuPrimeiroApp.runtimeconfig.json
+D:\VSCode\estudos\DotNet\Recomecando\Recomecando\MeuPrimeiroApp\bin\Debug\net8.0\MeuPrimeiroApp.dll
+D:\VSCode\estudos\DotNet\Recomecando\Recomecando\MeuPrimeiroApp\bin\Debug\net8.0\MeuPrimeiroApp.pdb
+D:\VSCode\estudos\DotNet\Recomecando\Recomecando\MeuPrimeiroApp\obj\Debug\net8.0\MeuPrimeiroApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\VSCode\estudos\DotNet\Recomecando\Recomecando\MeuPrimeiroApp\obj\Debug\net8.0\MeuPrimeiroApp.AssemblyInfoInputs.cache
+D:\VSCode\estudos\DotNet\Recomecando\Recomecando\MeuPrimeiroApp\obj\Debug\net8.0\MeuPrimeiroApp.AssemblyInfo.cs
+D:\VSCode\estudos\DotNet\Recomecando\Recomecando\MeuPrimeiroApp\obj\Debug\net8.0\MeuPrimeiroApp.csproj.CoreCompileInputs.cache
+D:\VSCode\estudos\DotNet\Recomecando\Recomecando\MeuPrimeiroApp\obj\Debug\net8.0\MeuPrimeiroApp.sourcelink.json
+D:\VSCode\estudos\DotNet\Recomecando\Recomecando\MeuPrimeiroApp\obj\Debug\net8.0\MeuPrimeiroApp.dll
+D:\VSCode\estudos\DotNet\Recomecando\Recomecando\MeuPrimeiroApp\obj\Debug\net8.0\refint\MeuPrimeiroApp.dll
+D:\VSCode\estudos\DotNet\Recomecando\Recomecando\MeuPrimeiroApp\obj\Debug\net8.0\MeuPrimeiroApp.pdb
+D:\VSCode\estudos\DotNet\Recomecando\Recomecando\MeuPrimeiroApp\obj\Debug\net8.0\MeuPrimeiroApp.genruntimeconfig.cache
+D:\VSCode\estudos\DotNet\Recomecando\Recomecando\MeuPrimeiroApp\obj\Debug\net8.0\ref\MeuPrimeiroApp.dll
