@@ -5,6 +5,10 @@ VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeuPrimeiroApp", "MeuPrimeiroApp\MeuPrimeiroApp.csproj", "{CCA4F66E-7988-417E-9D50-95A02F972F67}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgeCalculatorPlus", "AgeCalculatorPlus\AgeCalculatorPlus.csproj", "{E85BA89F-4072-48C6-AEF9-E0C0C3A36748}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolidayAPI", "HolidayAPI\HolidayAPI.csproj", "{ADBE85AC-EE26-4C17-9F35-A178FEB30C38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{CCA4F66E-7988-417E-9D50-95A02F972F67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCA4F66E-7988-417E-9D50-95A02F972F67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCA4F66E-7988-417E-9D50-95A02F972F67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E85BA89F-4072-48C6-AEF9-E0C0C3A36748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E85BA89F-4072-48C6-AEF9-E0C0C3A36748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E85BA89F-4072-48C6-AEF9-E0C0C3A36748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E85BA89F-4072-48C6-AEF9-E0C0C3A36748}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADBE85AC-EE26-4C17-9F35-A178FEB30C38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADBE85AC-EE26-4C17-9F35-A178FEB30C38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADBE85AC-EE26-4C17-9F35-A178FEB30C38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADBE85AC-EE26-4C17-9F35-A178FEB30C38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

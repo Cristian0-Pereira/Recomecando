@@ -1,6 +1,0 @@
-D:\VSCode\estudos\DotNet\Recomecando\Recomecando\MeuPrimeiroApp\AgeCalculatorPlus\obj\Debug\net8.0-windows\AgeCalculatorPlus.csproj.AssemblyReference.cache
-D:\VSCode\estudos\DotNet\Recomecando\Recomecando\MeuPrimeiroApp\AgeCalculatorPlus\obj\Debug\net8.0-windows\AgeCalculatorPlus.GeneratedMSBuildEditorConfig.editorconfig
-D:\VSCode\estudos\DotNet\Recomecando\Recomecando\MeuPrimeiroApp\AgeCalculatorPlus\obj\Debug\net8.0-windows\AgeCalculatorPlus.AssemblyInfoInputs.cache
-D:\VSCode\estudos\DotNet\Recomecando\Recomecando\MeuPrimeiroApp\AgeCalculatorPlus\obj\Debug\net8.0-windows\AgeCalculatorPlus.AssemblyInfo.cs
-D:\VSCode\estudos\DotNet\Recomecando\Recomecando\MeuPrimeiroApp\AgeCalculatorPlus\obj\Debug\net8.0-windows\AgeCalculatorPlus.csproj.CoreCompileInputs.cache
-D:\VSCode\estudos\DotNet\Recomecando\Recomecando\MeuPrimeiroApp\AgeCalculatorPlus\obj\Debug\net8.0-windows\AgeCalculatorPlus.sourcelink.json
