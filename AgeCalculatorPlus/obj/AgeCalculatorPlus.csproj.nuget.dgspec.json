@@ -51,6 +51,14 @@
               "target": "Package",
               "version": "[6.0.0, )"
             },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
             "System.Net.Http": {
               "target": "Package",
               "version": "[4.3.4, )"

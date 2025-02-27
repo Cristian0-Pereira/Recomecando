@@ -1,0 +1,12 @@
+D:\VSCode\estudos\DotNet\Recomecando\Recomecando\HolidayAPI\bin\Debug\net8.0\HolidayAPI.deps.json
+D:\VSCode\estudos\DotNet\Recomecando\Recomecando\HolidayAPI\bin\Debug\net8.0\HolidayAPI.dll
+D:\VSCode\estudos\DotNet\Recomecando\Recomecando\HolidayAPI\bin\Debug\net8.0\HolidayAPI.pdb
+D:\VSCode\estudos\DotNet\Recomecando\Recomecando\HolidayAPI\obj\Debug\net8.0\HolidayAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\VSCode\estudos\DotNet\Recomecando\Recomecando\HolidayAPI\obj\Debug\net8.0\HolidayAPI.AssemblyInfoInputs.cache
+D:\VSCode\estudos\DotNet\Recomecando\Recomecando\HolidayAPI\obj\Debug\net8.0\HolidayAPI.AssemblyInfo.cs
+D:\VSCode\estudos\DotNet\Recomecando\Recomecando\HolidayAPI\obj\Debug\net8.0\HolidayAPI.csproj.CoreCompileInputs.cache
+D:\VSCode\estudos\DotNet\Recomecando\Recomecando\HolidayAPI\obj\Debug\net8.0\HolidayAPI.sourcelink.json
+D:\VSCode\estudos\DotNet\Recomecando\Recomecando\HolidayAPI\obj\Debug\net8.0\HolidayAPI.dll
+D:\VSCode\estudos\DotNet\Recomecando\Recomecando\HolidayAPI\obj\Debug\net8.0\refint\HolidayAPI.dll
+D:\VSCode\estudos\DotNet\Recomecando\Recomecando\HolidayAPI\obj\Debug\net8.0\HolidayAPI.pdb
+D:\VSCode\estudos\DotNet\Recomecando\Recomecando\HolidayAPI\obj\Debug\net8.0\ref\HolidayAPI.dll

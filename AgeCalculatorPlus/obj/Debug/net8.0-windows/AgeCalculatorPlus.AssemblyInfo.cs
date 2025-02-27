@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AgeCalculatorPlus")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a872e4019b9575a34c9e7ea50babf4b6759fa325")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+034ce9e548b73bcf08547d0a20faf700a4f991d2")]
 [assembly: System.Reflection.AssemblyProductAttribute("AgeCalculatorPlus")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AgeCalculatorPlus")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

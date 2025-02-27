@@ -4,15 +4,20 @@ using System.Net.Http;
 using System.Windows.Forms;
 using System.Collections.Generic;
 using System.Net.Http.Json;
+using System.Text.Json;
+using System.Threading.Tasks;
 
 namespace AgeCalculatorPlus
 {
-    public partial class MainForm : Form
+    public partial class Form1 : Form
     {
-        private readonly HttpClient _httpClient = new HttpClient();
+        private readonly HttpClient _httpClient;
 
-        public MainForm()
+        public Form1() : this(new HttpClient()) { }
+
+        public Form1(HttpClient httpClient)
         {
+            _httpClient = httpClient;
             InitializeComponent();
             ConfigureUI();
         }
@@ -91,12 +96,12 @@ namespace AgeCalculatorPlus
                 if (response.IsSuccessStatusCode)
                 {
                     var json = await response.Content.ReadAsStringAsync();
-                    var holidays = JsonContent.DeserializeObject<List<Holiday>>(json);
+                    var holidays = JsonSerializer.Deserialize<List<Holiday>>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
 
                     lstHolidays.Items.Clear();
                     foreach (var holiday in holidays)
                     {
-                        lstHolidays.Items.Add($"{holiday.Date:dd/MM} - {holiday.name} ({holiday.Type})");
+                        lstHolidays.Items.Add($"{holiday.Date:dd/MM} - {holiday.Name} ({holiday.Type})");
                     }
                 }
             }
