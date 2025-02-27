@@ -1,24 +1,13 @@
-using System;
-using System.Drawing;
-using System.Net.Http;
-using System.Windows.Forms;
-using System.Collections.Generic;
-using System.Net.Http.Json;
-using System.Text.Json;
-using System.Threading.Tasks;
-
 namespace AgeCalculatorPlus
 {
     public partial class Form1 : Form
     {
-        private readonly HttpClient _httpClient;
+        private readonly HolidayServices _holidayServices;
 
-        public Form1() : this(new HttpClient()) { }
-
-        public Form1(HttpClient httpClient)
+        public Form1(HolidayServices holidayServices)
         {
-            _httpClient = httpClient;
             InitializeComponent();
+            _holidayServices = holidayServices;
             ConfigureUI();
         }
 
@@ -90,20 +79,13 @@ namespace AgeCalculatorPlus
         {
             try
             {
-                var response = await _httpClient.GetAsync(
-                $"https://brasilapi.com.br/api/feriados/v1/{year}");
-
-                if (response.IsSuccessStatusCode)
-                {
-                    var json = await response.Content.ReadAsStringAsync();
-                    var holidays = JsonSerializer.Deserialize<List<Holiday>>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+                var holidays = await _holidayServices.GetHolidays(year);
 
                     lstHolidays.Items.Clear();
                     foreach (var holiday in holidays)
                     {
                         lstHolidays.Items.Add($"{holiday.Date:dd/MM} - {holiday.Name} ({holiday.Type})");
                     }
-                }
             }
             catch (Exception ex)
             {
@@ -116,13 +98,6 @@ namespace AgeCalculatorPlus
         private Button btnCalculate;
         private Label lblResult;
         private ListBox lstHolidays;
-
-        public class Holiday
-        {
-            public DateTime Date { get; set; }
-            public string Name { get; set; }
-            public string Type { get; set; }
-        }
     }
 }
 

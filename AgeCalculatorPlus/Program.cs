@@ -1,16 +1,33 @@
-namespace AgeCalculatorPlus;
+using Microsoft.Extensions.DependencyInjection;
 
-static class Program
+namespace AgeCalculatorPlus
 {
-    /// <summary>
-    ///  The main entry point for the application.
-    /// </summary>
-    [STAThread]
-    static void Main()
+    static class Program
     {
-        // To customize application configuration such as set high DPI settings or default font,
-        // see https://aka.ms/applicationconfiguration.
-        ApplicationConfiguration.Initialize();
-        Application.Run(new Form1());
-    }    
+        [STAThread]
+        static void Main()
+        {
+            // Captura erros globais
+            AppDomain.CurrentDomain.UnhandledException += (s, e) =>
+            {
+                File.WriteAllText("error.log", e.ExceptionObject.ToString());
+                MessageBox.Show("Erro crítico! Verifique error.log");
+            };
+
+            // Configuração da injeção de dependência
+            var services = new ServiceCollection();
+            services.AddMemoryCache();
+            services.AddHttpClient<HolidayServices>(); // 🔹 Registra o HttpClient corretamente
+
+            var serviceProvider = services.BuildServiceProvider();
+            var holidayService = serviceProvider.GetRequiredService<HolidayServices>();
+
+            // Inicia a aplicação passando a instância do serviço
+            ApplicationConfiguration.Initialize();
+            Application.Run(new Form1(holidayService));
+        }
+    }
 }
+
+
+// Implementar mapa de feriados
